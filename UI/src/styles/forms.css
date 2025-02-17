@@ -1,0 +1,84 @@
+.signup-container,
+.login-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Base Form Styles */
+.form-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  margin: 0 auto;
+}
+
+.form-title {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333333;
+  text-align: center;
+}
+
+/* Input Styles */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  background: #f9f9f9;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: #6a11cb;
+  background: #ffffff;
+  box-shadow: 0 0 8px rgba(106, 17, 203, 0.1);
+  outline: none;
+}
+
+/* Button Styles (Reuse from previous button CSS) */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transform: translateY(-2px);
+}
+
+/* Additional Elements */
+.form-footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.form-footer a {
+  color: #6a11cb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.form-footer a:hover {
+  color: #2575fc;
+}

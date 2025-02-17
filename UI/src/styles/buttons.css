@@ -1,0 +1,80 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(145deg, #4b7bec, #3a5bb1);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.button svg {
+  margin-right: 8px;
+}
+
+.button:hover {
+  background: linear-gradient(145deg, #3a5bb1, #4b7bec);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* .button:active {
+  background: linear-gradient(145deg, #2a3b6d, #3a5bb1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
+
+.login-button {
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  margin: 10px;
+}
+
+.login-button:hover {
+  background: linear-gradient(45deg, #2575fc, #6a11cb);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.signup-button {
+  background: linear-gradient(45deg, #ff512f, #dd2476);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+  margin: 10px;
+}
+
+.signup-button:hover {
+  background: linear-gradient(45deg, #dd2476, #ff512f);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+.adminBack {
+  margin-bottom: 10px;
+}

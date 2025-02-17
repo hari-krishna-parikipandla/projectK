@@ -1,0 +1,224 @@
+.pageContainer {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.contentContainer {
+  display: flex;
+  justify-content: space-between; /* Align batches and students side by side */
+}
+
+.search {
+  display: flex;
+  justify-content: center; /* Center the search bar */
+  margin-bottom: 20px;
+}
+
+.searchbox {
+  display: flex;
+  width: 100%; /* Full width for search box */
+  /* max-width: 1200px; */
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(33, 25, 25, 0.1);
+}
+
+.sidebar {
+  width: 10%; /* 20% width for the sidebar */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.batchList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.batchItem {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px; /* Larger font for better readability */
+  color: #333;
+  letter-spacing: 1px;
+}
+.batchItem:hover {
+  background: linear-gradient(145deg, #4b7bec, #3a5bb1);
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.mainContent {
+  width: 85%; /* 80% width for main content */
+}
+
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  position: relative;
+}
+.card:hover {
+  background: linear-gradient(145deg, #4b7bec, #3a5bb1);
+  color: white;
+  font-weight: bold;
+}
+.buttonContainer {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.iconButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.noDataText {
+  color: #888;
+  text-align: center;
+}
+
+.headingCont {
+  display: inline-flex;
+  justify-content: center;
+  width: 90%;
+  margin: 10px;
+}
+
+.studentsTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.studentsTable th,
+.studentsTable td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.studentsTable th {
+  background-color: #f4f4f4;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24'%3E%3Cpath fill='none' stroke='%23333' stroke-width='2' d='M6 15l6-6 6 6M6 9l6-6 6 6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px top 50%;
+}
+
+.studentsTable tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.studentsTable tr:not(:first-child):hover {
+  /* background-color: #f1f1f1; */
+  background: linear-gradient(145deg, #4b7bec, #3a5bb1);
+  color: whitesmoke;
+}
+
+.viewToggleContainer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.toggleButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+}
+
+.toggleButton:hover {
+  background-color: #0056b3;
+}
+
+.toggleButton {
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+}
+
+.toggleButton:hover {
+  background-color: #0056b3;
+}
+
+.tada {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.inputField {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.modalButtons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
